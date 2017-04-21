@@ -48,14 +48,14 @@ em {
   src: url("AbrilFatface-Regular.otf");
 }
 
-@@font-face {
+@font-face {
   font-family: "New_Cicle_Semi";
   src: url("New_Cicle_Semi.ttf");
   src: local('☺'),
        url('New_Cicle_Semi.ttf') format('truetype'),
 }
 
-@@font-face {
+@font-face {
   font-family: "New_Cicle_Semi_Italic";
   src: url("New_Cicle_Semi_Italic.ttf");
   src: local('☺'),
@@ -63,6 +63,7 @@ em {
 }
 body {
   font-family: "New_Cicle_Semi", sans-serif;
+  background-color: rgb(180, 180, 180);;
 }
 
 h1.jumbotron {
@@ -72,4 +73,22 @@ h1.jumbotron {
 
 ol {
   list-style-position: inside;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.panel-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+#spans {
+  letter-spacing: 10px;
+}
+
+ul, li {
+    margin-left: 0; padding-left: 0;
 }
