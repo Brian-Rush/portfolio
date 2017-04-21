@@ -12,7 +12,7 @@ _Created for an assignment / independent project for Epicodus code school, this 
 
 * _Download repository_
 * _Open index.html in a web browser_
-* _Or, better yet, just visit this [Github page](Brian-Rush.github.io/portfolio)_
+* _Or, better yet, just visit its [Github page](http://Brian-Rush.github.io/portfolio)_
 
 ## Known Bugs
 
