@@ -25,3 +25,12 @@ img.profile {
 .row {
   width: 100%
 }
+em {
+  color: gray;
+}
+
+.project-image {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid black;
+}
