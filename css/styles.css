@@ -1,0 +1,27 @@
+.jumbotron {
+  text-align: center;
+  text
+}
+
+#about {
+  background-color: green;
+  margin-top: 0px;
+}
+
+#about-content {
+  width: 200px
+  margin: 0 auto;
+}
+
+#about-content img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img.profile {
+  border-radius: 20px;
+  float: left;
+}
+.row {
+  width: 100%
+}
