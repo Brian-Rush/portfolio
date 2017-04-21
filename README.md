@@ -24,9 +24,9 @@ _If you need to contact me for any reason please use the contact form at my [UX 
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
+* _HTML_
+* _CSS_
+* _Bootstrap_
 
 ### License
 

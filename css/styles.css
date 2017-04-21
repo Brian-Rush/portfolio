@@ -2,9 +2,13 @@
   text-align: center;
   text
 }
+h1.jumbotron {
+  font-size: 1000%;
+  margin-bottom: 10px;
+}
 
 #about {
-  background-color: green;
+  background-color: #d5d5d5;
   margin-top: 0px;
 }
 
@@ -14,13 +18,17 @@
 }
 
 #about-content img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  float: left;
 }
+
+/*#about-text {
+  padding:
+}*/
 
 img.profile {
   border-radius: 20px;
   float: left;
+  margin-right: 20px;
 }
 .row {
   width: 100%
@@ -33,4 +41,35 @@ em {
   max-width: 100%;
   max-height: 100%;
   border: 2px solid black;
+}
+
+@font-face {
+  font-family: "abril-fatface";
+  src: url("AbrilFatface-Regular.otf");
+}
+
+@@font-face {
+  font-family: "New_Cicle_Semi";
+  src: url("New_Cicle_Semi.ttf");
+  src: local('☺'),
+       url('New_Cicle_Semi.ttf') format('truetype'),
+}
+
+@@font-face {
+  font-family: "New_Cicle_Semi_Italic";
+  src: url("New_Cicle_Semi_Italic.ttf");
+  src: local('☺'),
+       url('New_Cicle_Semi_Italic.ttf') format('truetype'),
+}
+body {
+  font-family: "New_Cicle_Semi", sans-serif;
+}
+
+h1.jumbotron {
+  font-family: "abril-fatface", serif;
+  font-size:
+}
+
+ol {
+  list-style-position: inside;
 }
